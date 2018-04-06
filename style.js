@@ -44,6 +44,24 @@ $(document).ready(function(){
       });
     } // End if
   });
-  
+    $(window).scroll(function(){
+	  
+	  if
+		  ($(this).scrollTop()>400){
+			  $("#top_btn").fadeIn();
+			  
+		  }
+		else{
+			$("#top_btn").fadeOut();
+			
+		}
+	  
+	  
+	  
+	  
+  });
+	$("#top_btn").click(function(){
+		$("body,html").animate({scrollTop:0},1000);
+	});
   
 });

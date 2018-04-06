@@ -10,6 +10,18 @@
         max-width: 100% !important;
         overflow-x: hidden !important;
     }
+#top_btn{
+	color:#3ca7eb;
+	background:none;
+	border:none;
+	outline:none;
+	right:50px;
+	bottom:30px;
+	position:fixed;
+	z-index:999;
+	cursor:pointer;
+	display:none;
+}
 
 	
 .blue_logo_part{
@@ -192,9 +204,23 @@ label{
 	font-size:18px;
 	padding:0 0 40px 0;
 }
+.donation_head{
+	font-size:44px;
+	padding:40px 0 10px 0;
+	text-align:center;
+	font-family:'head_font';
+}
 
-
-
+.about-para1{
+	font-size:22px;
+	padding:20px 0 0 0;
+	color:#037ba7;
+	font-weight:bold;
+}
+.about-para{
+	font-size:19px;
+	padding:10px 0 40px 0;
+}
 
 
 
@@ -216,6 +242,20 @@ label{
 ul{
 	display:none!important;
 }
+	#top_btn{
+	font-size:10px;
+	color:#3ca7eb;
+	background:none;
+	border:none;
+	outline:none;
+	right:5px;
+	bottom:90px!important;
+	position:fixed;
+	z-index:999;
+	cursor:pointer;
+	display:none;
+}
+
 .we_img{
 	margin:0 0 0 0!important;
 }
@@ -399,6 +439,12 @@ label{
 }
 .call_icon{
 	margin:10px 0 0 0;
+}
+.donation_head{
+	font-size:44px;
+	padding:40px 0 10px 0;
+	text-align:center;
+	font-family:'head_font';
 }
 
 }
