@@ -1,0 +1,375 @@
+@font-face{
+	font-family:'head_font';
+	src:url('fonts/Aileron-Light.otf');
+	
+}
+ body {
+       overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+	
+.blue_logo_part{
+	background:#000000;
+	border-radius:0;
+	padding:10px 30px 15px 20px;
+}
+.logo_text{
+	color:#fff;
+}
+.elarning_style ul li{
+	padding:0 20px 0 20px;
+}
+
+.elarning_style ul li a{
+	color:#fff!important;
+	
+	
+	
+}
+.donate_btn{
+	border-radius:0;
+	border:3px solid #0BD3D0;
+	background:none;
+	font-size:18px;
+	
+}
+/*=====================banner part==============*/
+.banner_part{
+	background:url('img/water-1363440165HGc.jpg')repeat-x;
+	min-height:500px;
+	position:relative;
+}
+.container-my{
+	padding-right:0;
+	padding-left:0;
+}
+.banner_head{
+	font-size:38px;
+	color:#000;      	
+	padding:20px 0 10px 0;
+	
+}
+.banner_para{
+	font-size:26px;
+	color:#000;
+}
+.donate_btn_two{
+	background:#BCDE12;
+	border:none;
+	border-radius:0;
+	padding:20px;
+	width:200px;
+	font-size:20px;
+	color:#000;
+	font-weight:bold;
+}
+/*===================why part================*/
+.why_head{
+	font-size:38px;
+	padding:20px 0 10px 0;
+	font-family:'head_font';
+	text-align:center!important;
+	
+}
+.why_para{
+	font-size:18px;
+	padding:20px 0 10px 0;
+	font-family:'head_font';
+	text-align:center!important;
+}
+.learn-btn{
+	background:#0AA5AC;
+	border:none;
+	border-radius:4px;
+	padding:15px 20px 15px 20px;
+	width:150px;
+	font-size:18px;
+	color:#fff;
+
+}
+/*================footer part================*/
+.footer_part{
+	background:#fff;
+	padding:30px 0 0 20px;
+}
+.contact_head{
+	color:#000;
+	padding:0 0 40px 0;
+	font-size:40px;
+	font-family:'head_font';
+}
+.footer_para{
+	color:#000;
+	font-size:18px;
+	text-align:center;
+}
+.map_icon{
+	margin:0 auto!important;
+}
+.our_head{
+	font-size:38px;
+	margin:20px 0 0 470px;
+	font-family:'head_font';
+	text-align:center;
+}
+.about_head{
+	font-size:38px;
+	padding:20px 0 0 0;
+	text-align:center;
+	font-family:'head_font';
+}
+
+.footer_part2{
+	background:#000;
+	padding:20px;
+}
+
+.my_form{
+	width:250px;
+	
+	margin:10px 0 5px 0;
+	border:1px solid #AAAAAA;
+}
+.volunteer_part{
+	padding:50px 0 60px 0;
+}
+label{
+	font-size:20px;
+	margin:10px 0 5px 0;
+	
+	
+}
+.submit_btn{
+	background:#0AA5AC;
+	border:none;
+	border-radius:4px;
+	padding:15px;
+	width:150px;
+	font-size:20px;
+	color:#fff;
+	margin:20px 0 0 0;
+
+}
+
+.volunteer{
+	font-size:44px;
+	padding:30px 0 40px 0;
+	text-align:center;
+	font-family:'head_font';
+}
+
+.we_img{
+	margin:0 0 0 400px!important;
+}
+/*===============school part=======================*/
+.school_head{
+	
+	color:#037ba7;
+	font-size:24px;
+	font-family:'head_font';
+	
+}
+.school_para{
+
+	font-size:18px;
+	padding:0 0 40px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*====================media query==================*/
+@media screen and (min-width:100px) and (max-width:400px){
+
+	 body {
+       overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+	
+.we_img{
+	margin:0 0 0 0!important;
+}
+	
+	
+	.blue_logo_part{
+	background:#000000;
+	border-radius:0;
+	padding:10px 30px 15px 20px;
+}
+.logo_text{
+	color:#fff;
+}
+.nav-item{
+	padding:0 0 0 0!important;
+}
+
+.elarning_style ul li a{
+	color:#fff!important;
+}
+.donate_btn{
+	border-radius:0;
+	border:3px solid #0BD3D0;
+	background:none;
+	font-size:18px;
+	
+}
+.why_head{
+	font-size:38px;
+	padding:20px 0 10px 0!important;
+	font-family:'head_font';
+	text-align:center!important;
+	
+}
+.why_para{
+	font-size:18px;
+	padding:20px 0 10px 0;
+	font-family:'head_font';
+	text-align:center!important;
+}
+/*=====================banner part==============*/
+.our_head{
+	font-size:38px;
+	margin:90px 0 10px 80px!important;
+	font-family:'head_font';
+}
+.banner_part{
+	background:url('img/water-1363440165HGc.jpg')no-repeat;
+	min-height:400px;
+	position:relative;
+}
+.banner_para{
+	font-size:20px;
+	color:#4F4F4F;
+}
+.banner_head{
+	color:#4F4F4F;
+	font-size:28px;
+	padding:20px 0 10px 0;
+	
+}
+.donate_btn_two{
+	background:#BCDE12;
+	border:none;
+	border-radius:4px;
+	padding:20px;
+	width:200px;
+	font-size:20px;
+	color:#000;
+	font-weight:bold;
+}
+/*================footer part================*/
+.footer_part{
+	background:#fff;
+	padding:80px 0 20px 20px;
+}
+.contact_head{
+	color:#000;
+	padding:0 0 40px 0;
+	font-size:40px;
+	font-family:'head_font';
+	
+}
+.footer_para{
+	color:#000;
+	font-size:18px;
+	padding:0 0 0 0;
+	text-align:left!important;
+}
+.map_icon{
+	margin:0 0 50px 80px!important;
+}
+.icon-style{
+	padding:0 15px 0 0;
+	color:#14C494;
+	font-size:22px;
+}
+
+.about_head{
+	font-size:44px;
+	padding:40px 0 70px 0;
+	text-align:center;
+	font-family:'head_font';
+}
+.about-para1{
+	font-size:22px;
+	padding:20px 0 0 0;
+	color:#037ba7;
+	font-weight:bold;
+}
+.about-para{
+	font-size:19px;
+	padding:10px 0 40px 0;
+}
+.volunteer{
+	font-size:44px;
+	padding:30px 0 40px 0;
+	text-align:center;
+	font-family:'head_font';
+}
+.volunteer_para{
+	font-size:18px;
+	padding:10px 0 30px 0;
+
+}
+.footer_part2{
+	background:#000;
+	padding:20px;
+}
+.my_form{
+	width:250px;
+	float:right;
+	margin:10px 0 5px 0;
+	border:1px solid #AAAAAA;
+}
+.volunteer_part{
+	padding:50px 0 60px 0;
+}
+label{
+	font-size:20px;
+	margin:10px 0 5px 0;
+	
+}
+.submit_btn{
+	background:#0AA5AC;
+	border:none;
+	border-radius:4px;
+	padding:15px;
+	width:150px;
+	font-size:20px;
+	color:#fff;
+	margin:20px 0 0 0;
+
+}
+/*===============school part=======================*/
+.school_head{
+	text-align:left!important;
+	color:#037ba7;
+	font-size:24px;
+	font-family:'head_font';
+	
+}
+.school_para{
+	text-align:left!important;
+	font-size:18px;
+	padding:0 0 40px 0;
+}
+
+}
+
+
+
+
